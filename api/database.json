@@ -1,0 +1,194 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "sunflower",
+            "color": "Yellow"
+        },
+        {
+            "id": 2,
+            "commonName": "lily",
+            "color": "White"
+        },
+        {
+            "id": 3,
+            "commonName": "Orchid",
+            "color": "Purple"
+        },
+        {
+            "id": 4,
+            "commonName": "Birds Of Paradise",
+            "color": "Multi-color"
+        },
+        {
+            "id": 5,
+            "commonName": "Peony",
+            "color": "Pinkish"
+        }
+
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Bobby's Bouquet's",
+            "city": "Metairie",
+            "state": "LA",
+            "address": "55 Muddy Waters Road",
+            "distributorId": 2
+        },
+        {
+            "id": 2,
+            "name": "Petal 2 the Metal",
+            "city": "New Haven",
+            "state": "CT",
+            "address": "877 Gohere lane",
+            "distributorId": 3
+        },
+        {
+            "id": 3,
+            "name": "Blooming Boomers",
+            "city": "St. Paul",
+            "state": "MN",
+            "address": "99 Boomer Ave",
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "name": "Ivy Park",
+            "city": "New York",
+            "state": "NY",
+            "address": "45 Yonce Way",
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "name": "Stumpy Stem",
+            "city": "Dallas",
+            "state": "TX",
+            "address": "1 Stumpy Road",
+            "distributorId": 1
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Pollenators"
+        },
+        {
+            "id": 2,
+            "name": "Petal Pushers"
+        },
+        {
+            "id": 3,
+            "name": "Here are Your Flowers"
+        }
+
+    ],
+        "nurseries": [
+            {
+                "id": 1,
+                "name": "The Nurse-ery's Office"
+            },
+            {
+                "id": 2,
+                "name": "Rhymes"
+            },
+            {
+                "id": 3,
+                "name": "Nurse Joy's Nursery"
+            },
+            {
+                "id": 4,
+                "name": "Buds 4 Life"
+            },
+            {
+                "id": 5,
+                "name": "Stems & Seeds"
+            }
+        ],
+        "flowerNursery": [
+            {
+                "id": 1,
+                "flowerId": 2,
+                "nurseryId": 1
+            },
+            {
+                "id": 2,
+                "flowerId": 3,
+                "nurseryId": 1
+            },
+            {
+                "id": 3,
+                "flowerId": 3,
+                "nurseryId": 2
+            },
+            {
+                "id": 4,
+                "flowerId": 5,
+                "nurseryId": 2
+            },
+            {
+                "id": 5,
+                "flowerId": 4,
+                "nurseryId": 3
+            },
+            {
+                "id": 6,
+                "flowerId": 1,
+                "nurseryId": 3
+            },
+            {
+                "id": 7,
+                "flowerId": 3,
+                "nurseryId": 4
+            },
+            {
+                "id": 8,
+                "flowerId": 2,
+                "nurseryId": 4
+            },
+            {
+                "id": 9,
+                "flowerId": 1,
+                "nurseryId": 5
+            },
+            {
+                "id": 10,
+                "flowerId": 5,
+                "nurseryId": 5
+            }
+        ],
+        "distributorNursery": [
+            {
+                "id": 1,
+                "distributorId": 1,
+                "nurseryId": 1
+            },
+            {
+                "id": 2,
+                "distributorId": 1,
+                "nurseryId": 2
+            },
+            {
+                "id": 3,
+                "distributorId": 2,
+                "nurseryId": 3
+            },
+            {
+                "id": 4,
+                "distributorId": 2,
+                "nurseryId": 4
+            },
+            {
+                "id": 3,
+                "distributorId": 3,
+                "nurseryId": 4
+            },
+            {
+                "id": 4,
+                "distributorId": 3,
+                "nurseryId": 5
+            }
+        ]
+
+}

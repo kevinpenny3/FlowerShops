@@ -1,0 +1,54 @@
+/* Flowers  */
+.flowers {
+    display: flex;
+}
+
+.flowerList {
+    flex-basis: 50%;
+}
+
+.flower {
+    text-align: center;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 0px 3px 8px 3px;
+}
+
+
+/* Retailers */
+.retailers {
+    display: flex;
+}
+
+.retailerList {
+    flex-basis: 50%;
+}
+
+
+.retailer {
+    text-align: center;
+    margin: 1%;
+    padding: 0px 3px 8px 3px;
+}
+
+.retailerInformation {
+    flex-basis: 30%;
+    border: 1px solid black;
+    margin: .25%;
+}
+
+/* Distributors */
+.distributors {
+    display: flex;
+}
+
+.distributorList {
+    flex-basis: 50%;
+}
+
+
+.distributor {
+    text-align: center;
+    margin: 1%;
+    padding: 0px 3px 8px 3px;
+}
